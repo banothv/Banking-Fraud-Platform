@@ -24,3 +24,37 @@ PySpark Streaming
    PostgreSQL
         ↓
  Streamlit Dashboard
+
+Apache Airflow is used to orchestrate and validate the banking fraud pipeline.
+```text
+
+                    ┌──────────────────────┐
+                    │ Transaction Generator│
+                    │       Python         │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │        Kafka         │
+                    │  bank-transactions   │
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │    PySpark Stream    │
+                    │ Fraud Detection Rules│
+                    └──────────┬───────────┘
+                               │
+                               ▼
+                    ┌──────────────────────┐
+                    │     PostgreSQL       │
+                    │ Transactions/Alerts  │
+                    └──────────┬───────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    ▼                     ▼
+          ┌─────────────────┐    ┌─────────────────┐
+          │ Streamlit       │    │ Apache Airflow  │
+          │ Dashboard       │    │ Orchestration   │
+          └─────────────────┘    └─────────────────┘
+```
