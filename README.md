@@ -62,19 +62,19 @@ Apache Airflow is used to orchestrate and validate the banking fraud pipeline.
 ## 🎯 Project Objectives
 
 The main objectives of this project are:
-Build a real-time banking transaction data pipeline.
-Generate realistic banking transactions using Python.
-Stream transactions through Apache Kafka.
-Process streaming data using PySpark.
-Implement rule-based fraud detection.
-Assign risk scores to transactions.
-Identify NORMAL, SUSPICIOUS, and FRAUD transactions.
-Store processed transactions in PostgreSQL.
-Store suspicious and fraudulent transactions as alerts.
-Build a real-time analytics dashboard using Streamlit.
-Orchestrate pipeline validation using Apache Airflow.
-Containerize infrastructure components using Docker.
-Create a GitHub-ready data engineering portfolio project.
+** Build a real-time banking transaction data pipeline.
+** Generate realistic banking transactions using Python.
+** Stream transactions through Apache Kafka.
+** Process streaming data using PySpark.
+** Implement rule-based fraud detection.
+** Assign risk scores to transactions.
+** Identify NORMAL, SUSPICIOUS, and FRAUD transactions.
+** Store processed transactions in PostgreSQL.
+** Store suspicious and fraudulent transactions as alerts.
+** Build a real-time analytics dashboard using Streamlit.
+** Orchestrate pipeline validation using Apache Airflow.
+** Containerize infrastructure components using Docker.
+** Create a GitHub-ready data engineering portfolio project.**
 🏗️ System Architecture
                         REAL-TIME BANKING FRAUD PLATFORM
 
