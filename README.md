@@ -293,7 +293,8 @@ bank-transactions
 ```
 Source file:
 
-https://chatgpt.com/c/transaction-generator/producer.py
+[`transaction-generator/producer.py`](./transaction-generator/producer.py)
+
 
 
 ## 🗄️ Step 6 — PostgreSQL Database
