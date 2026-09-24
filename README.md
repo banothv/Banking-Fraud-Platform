@@ -24,8 +24,9 @@ PySpark Streaming
    PostgreSQL
         ↓
  Streamlit Dashboard
-
+```
 Apache Airflow is used to orchestrate and validate the banking fraud pipeline.
+
 ```text
 
                     ┌──────────────────────┐
