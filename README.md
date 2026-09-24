@@ -500,7 +500,7 @@ A Streamlit dashboard was created for monitoring banking transactions and fraud 
 
 Dashboard source:
 
-https://chatgpt.com/c/dashboard/app.py
+[`dashboard/app.py`](./dashboard/app.py)
 
 The dashboard provides information such as:
 - Total Transactions
