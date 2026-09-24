@@ -302,7 +302,8 @@ PostgreSQL is used as the persistent storage layer.
 
 Database schema:
 
-https://chatgpt.com/c/database/schema.sql
+[`database/schema.sql`](./database/schema.sql)
+
 
 
 The project contains tables for:
@@ -357,7 +358,8 @@ PySpark is used to process transactions in real time.
 
 Fraud detection rules are implemented in:
 
-https://chatgpt.com/c/spark/fraud_rules.py
+[`spark/fraud_rules.py`](./spark/fraud_rules.py)
+
 
 The current rule-based detection system evaluates transaction amounts.
 
@@ -405,7 +407,8 @@ PySpark Structured Streaming consumes transactions from Kafka.
 
 Source file:
 
-https://chatgpt.com/c/spark/streaming.py
+[`spark/streaming.py`](./spark/streaming.py)
+
 
 The streaming pipeline performs the following operations:
 
@@ -463,8 +466,8 @@ Airflow configuration:
 airflow/docker-compose.yml
 ```
 DAG:
+[`airflow/dags/banking_fraud_pipeline.py`](./airflow/dags/banking_fraud_pipeline.py)
 
-https://chatgpt.com/c/airflow/dags/banking_fraud_pipeline.py
 
 DAG ID:
 ```text
@@ -528,8 +531,8 @@ These values represent the data generated during the project test run and will c
 ## 🧪 Step 12 — Testing & Validation
 
 Fraud detection rules were tested using:
+[`spark/test_fraud_rules.py`](./spark/test_fraud_rules.py)
 
-https://chatgpt.com/c/spark/test_fraud_rules.py
 
 Test cases included:
 ```text
