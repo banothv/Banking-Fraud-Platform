@@ -736,17 +736,33 @@ Streamlit Dashboard
 ```
 ## 📸 Screenshots
 ### 1. Kafka
-![Kafka Topic](docs/images/kafka-topic.png)
+<img width="1172" height="1342" alt="image" src="https://github.com/user-attachments/assets/39131714-285a-407e-8669-95d2e89530b0" />
+
 ### 2. PySpark Streaming
-![PySpark Streaming](docs/images/pyspark-streaming.png)
+<img width="1168" height="1347" alt="image" src="https://github.com/user-attachments/assets/9d6e31a4-3f65-406a-a055-1b5a3d7fd5d7" />
+
 ### 3. PostgreSQL Fraud Alerts
-![PostgreSQL Fraud Alerts](docs/images/postgresql-fraud-alerts.png)
+<img width="1173" height="1341" alt="image" src="https://github.com/user-attachments/assets/e73c4ea4-ac22-472a-85bf-533b02e7eaa2" />
+
 ### 4. Airflow DAG
-![Airflow DAG](docs/images/airflow-dag.png)
+<img width="1920" height="1009" alt="image" src="https://github.com/user-attachments/assets/c07f980c-4f68-48a9-8fa3-759fe173fe2b" />
+
+<img width="1920" height="988" alt="image" src="https://github.com/user-attachments/assets/247fc171-f37b-44ce-a75b-5b2f4381d5dd" />
+
 ### 5. Streamlit Dashboard
-![Streamlit Dashboard](docs/images/streamlit-dashboard.png)
+<img width="960" height="540" alt="Screenshot 2026-09-24 233617" src="https://github.com/user-attachments/assets/6995d4d0-705b-4fc2-925a-98e194f4f48e" />
+
+<img width="960" height="336" alt="Screenshot 2026-09-24 233632" src="https://github.com/user-attachments/assets/4928b94a-3185-4db1-ab09-f8dabcc5ce42" />
+
+<img width="960" height="356" alt="Screenshot 2026-09-24 234638" src="https://github.com/user-attachments/assets/5a56b6fa-8d24-4d73-8930-d40a11cded14" />
+
+<img width="960" height="358" alt="Screenshot 2026-09-24 233705" src="https://github.com/user-attachments/assets/7a65baec-528b-49da-a0e1-a6597bc065c5" />
+
+
+
 ### 6. Complete Architecture
-![System Architecture](docs/images/system-architecture.png)
+<img width="1536" height="406" alt="image" src="https://github.com/user-attachments/assets/965c222a-16ae-4eff-aefa-062574eee285" />
+
 
 ## 🔄 End-to-End Data Flow
 
