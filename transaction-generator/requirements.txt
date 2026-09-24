@@ -1,0 +1,3 @@
+Faker
+python-dotenv
+kafka-python
