@@ -24,14 +24,13 @@ st.set_page_config(
 
 # DATABASE CONFIGURATION
 
-DB_CONFIG = {
-    "host": st.secrets["postgres"]["db.jsbfkqlyaydratmozsnj.supabase.co"],
-    "port": st.secrets["postgres"]["5432"],
-    "database": st.secrets["postgres"]["postgres"],
-    "user": st.secrets["postgres"]["postgres"],
-    "password": st.secrets["postgres"]["venkatesh@123"],
+CONFIGURATION = {
+    "host": st.secrets["postgres"]["host"],
+    "port": st.secrets["postgres"]["port"],
+    "database": st.secrets["postgres"]["database"],
+    "user": st.secrets["postgres"]["user"],
+    "password": st.secrets["postgres"]["password"],
 }
-
 
 # --------------------------------------------------
 # DATABASE CONNECTION
