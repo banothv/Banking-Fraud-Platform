@@ -24,12 +24,12 @@ st.set_page_config(
 
 # DATABASE CONFIGURATION
 
-CONFIGURATION = {
+DB_CONFIG = {
     "host": st.secrets["postgres"]["host"],
     "port": st.secrets["postgres"]["port"],
     "database": st.secrets["postgres"]["database"],
     "user": st.secrets["postgres"]["user"],
-    "password": st.secrets["postgres"]["password"],
+    "password": st.secrets["postgres"]["password"]
 }
 
 # --------------------------------------------------
