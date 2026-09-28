@@ -22,12 +22,14 @@ st.set_page_config(
 # DATABASE CONFIGURATION
 # --------------------------------------------------
 
+# DATABASE CONFIGURATION
+
 DB_CONFIG = {
-    "host": "localhost",
-    "port": 5432,
-    "database": "ecommerce_db",
-    "user": "ecommerce_user",
-    "password": os.getenv("POSTGRES_PASSWORD")
+    "host": st.secrets["postgres"]["host"],
+    "port": st.secrets["postgres"]["port"],
+    "database": st.secrets["postgres"]["database"],
+    "user": st.secrets["postgres"]["venkatesh"],
+    "password": st.secrets["postgres"]["Venkatesh@123"],
 }
 
 
